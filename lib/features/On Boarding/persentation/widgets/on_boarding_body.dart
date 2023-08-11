@@ -12,11 +12,12 @@ class OnBoardingViewBody extends StatelessWidget {
         Positioned(
           top: MediaQuery.of(context).size.height * .1,
           right: 32,
-          child: Text(
+          child: const Text(
             'Skip',
             style: TextStyle(
-              fontSize: 14,
-              color: const Color(0xff898989),
+              fontSize: 16,
+              color: Color(0xff898989),
+              fontWeight: FontWeight.w500,
             ),
             textAlign: TextAlign.left,
           ),
